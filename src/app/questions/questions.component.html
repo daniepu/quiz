@@ -1,0 +1,24 @@
+<div class="container">
+<h1>Quiz</h1>
+  <div class="question">
+  <span>{{recentQU}}</span>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-action" *ngFor="let option of recentAS">
+          <input type="radio"
+          [(ngModel)]="selectedAnswer"
+          [value]="option" 
+          name="ans"
+          (change)="radioChangeHandler($event,option)">
+          {{option}}
+        </li>
+    </ul>
+  </div>
+  <div class="buttons">
+    <button class="btn btn-dark btn-lg"  [disabled]="valid()" (click)="Prev()" >prev</button>
+    <button *ngIf="index < data.length-1" class="btn btn-dark btn-lg" data-toggle="button" (click)="Next(ans)">next</button>
+    <button *ngIf="index == data.length-1" class="btn btn-success btn-lg" (click)="Calculate()">done</button>
+  </div>
+
+  <div class="grade" *ngIf="isDone == true">your grade is: {{grade}}</div>
+</div>
+

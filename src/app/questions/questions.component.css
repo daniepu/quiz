@@ -1,0 +1,44 @@
+*
+{
+    padding:10px;
+}
+h1
+{
+    font: outline;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: dimgray;
+    
+    
+}
+
+.btn
+{
+    width: 20%;
+    color: whitesmoke; 
+    text-align: center;
+    padding: 5px;
+    margin-right: 5px;
+    display:inline-block;
+}
+
+.grade
+{
+    color: rgb(1, 71, 16); 
+    background: transparent;
+    background-color: burlywood;
+    border: 2px solid ;
+    border-radius: 6px; 
+    text-align: center;
+}
+.buttons
+{
+    text-align: center;
+}
+span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}

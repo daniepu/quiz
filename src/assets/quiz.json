@@ -1,0 +1,52 @@
+{
+    "quiz": [
+            {
+                "id": "1",
+                "question": "Which one is correct team name in NBA?",
+                "options": [
+                    "New York Bulls",
+                    "Los Angeles Kings",
+                    "Golden State Warriros",
+                    "Huston Rocket"
+                ],
+                "answer": "Huston Rocket",
+                "selected": ""
+             },
+            {
+                "id": "2",
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12",
+                "selected": ""
+            },
+            {
+                "id": "3",
+                "question": "12 - 8 = ?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "4",
+                "selected": ""
+            },
+            {
+                "id": "4",
+                "question": "How many sessions has Game Of Thrones? ",
+                "options": [
+                    "2",
+                    "4",
+                    "6",
+                    "8"
+                ],
+                "answer": "8",
+                "selected": ""
+            }
+        ]
+}
